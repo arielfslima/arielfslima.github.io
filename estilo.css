@@ -2,5 +2,32 @@ body {
 	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
 }
 a{
-	margin: 4em 4em;
+	padding: 4em 4em;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+div.title{
+	font-size: 50px;
+	font-style: italic;
+	font-family: tahoma;
+	padding: 20px;
+}
+div.h2{
+	font-size: 25px;
+	font-style: italic;
+	font-family: tahoma;
+	padding: 10px;
+}
+div.h3{
+	font-size: 20px;
+	font-style: italic;
+	font-family: tahoma;
+	padding: 10px;
+}
+footer{
+	text-align: center;
 }
