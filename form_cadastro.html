@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta name="author" content="Ariel Fernandes-1700760">
+  <meta name="author" content="Gabriel Chaves-1700727">
+  <meta name="author" content="Victor de Freitas-1700741">
+  <meta name="author" content="Thiago Roldao-1520133">
+  <meta name="author" content="Maria Cecília-1700785">
+  <title>Cadastro - Faculdade</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<center><h1>Cadastro</h1></center>
+	<form class="cad" action="form_login.html" method="post" id="novouser">
+		Nome Completo:</br>
+		<input type="text" name="nomecompleto"></br> 
+		</br>
+		</br>
+		Insira a senha:</br>
+		<input type="password" name="senhadousuario"></br>
+		</br>
+		</br>
+		Sexo:</br></br>
+		<input type="radio" name="genero" value="masculino" checked>Masculino</br>
+		<input type="radio" name="genero" value="feminino" checked>Feminino</br>
+		<input type="radio" name="genero" value="outro" checked>Outro</br>
+		</br>
+		</br>
+		Data de Nascimento:</br>
+		<input type="date" name="datanasc"></br>
+		</br>
+		</br>
+		RA:</br>
+		<input type="number" name="RA" maxlength="7">
+		</br>
+		</br>
+		E-mail:</br>
+		<input type="email" name="email">
+		</br>
+		</br>
+		Telefone (COM DDD):</br>
+		<input type="number" name="telefone" min="0" max="99999999999">
+		</br>
+		</br>
+		Curso:</br>
+		<input type="text" name="curso">
+		</br>
+		</br>
+		Endereço:</br>
+		</br>
+		</br>
+		<li>Estado: </br><input type="text" name="estado"></br></li></br>
+		<li>Cidade: </br><input type="text" name="cidade"></br></li></br>
+		<li>Bairro: </br><input type="text" name="bairro"></br></li></br>
+		<li>Endereço: </br><input type="text" name="endereço"></br></li></br>
+		<li>Número: </br><input type="text" name="número"></br></li>
+		</br>
+		</br>		
+		<input type="submit" value="Cadastrar" method="post">
+	</form>
+</body>
+</html>

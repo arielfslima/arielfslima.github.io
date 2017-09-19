@@ -2,7 +2,7 @@ body {
 	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
 }
 a{
-	padding: 4em 4em;
+	padding: 2em 2em;
 }
 a:link{
 	color: white;
@@ -31,3 +31,116 @@ div.h3{
 footer{
 	text-align: center;
 }
+
+form.cad {
+	position: absolute;
+    top: 75%;
+    left: 25%;
+	transform: translateY(-25%) translateX(-25%);
+}
+
+form {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+body{
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+	
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: black;
+}
+
+textarea{ 
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+	color: black;
+	border: none; 
+	border-bottom: 2px solid black;	
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+}
+
+input.cadd {
+	margin: auto;
+    width: 150%;
+	padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid black;
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+}
+
+input[type=text] {
+	margin: auto;
+    width: 100%;
+	padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid black;
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    border: none;
+    border-bottom: 2px solid black;
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    border: none;
+    border-bottom: 2px solid black;
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    border: none;
+    border-bottom: 2px solid black;
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+}	
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    border: none;
+    border-bottom: 2px solid black;
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+	
+}
+
+input[type=submit] {
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+    border-radius: 8px;
+	border: 4px inset black ;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 18px;
+}
+
+input[type=reset] {
+	background-image: url("http://8kwallpapers.in/Wallpapers/Blue-ncs-solid-color-background-8k-wallpaper.jpg");
+    border-radius: 8px;
+	border: 4px inset black ;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 18px;
+}
+
+
+
